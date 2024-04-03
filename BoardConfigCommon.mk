@@ -111,6 +111,9 @@ BOARD_SUPER_PARTITION_METADATA_DEVICE := system
 $(foreach p, $(call to-upper, $(TREBLE_PARTITIONS)), \
     $(eval BOARD_$(p)IMAGE_PARTITION_RESERVED_SIZE := 30720000))
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/class/touch/tp_dev/gesture_on"
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
