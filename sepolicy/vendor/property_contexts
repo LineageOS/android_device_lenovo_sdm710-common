@@ -1,3 +1,12 @@
+# Audio
+audio_hal.                                      u:object_r:vendor_audio_prop:s0
+audio.offload.buffer.size.kb                    u:object_r:vendor_audio_prop:s0
+audio.offload.gapless.enabled                   u:object_r:vendor_audio_prop:s0
+persist.audio.fluence.speaker                   u:object_r:vendor_audio_prop:s0
+persist.audio.fluence.voicecall                 u:object_r:vendor_audio_prop:s0
+persist.audio.fluence.voicerec                  u:object_r:vendor_audio_prop:s0
+ro.qc.sdk.audio.fluencetype                     u:object_r:vendor_audio_prop:s0
+
 # Camera
 camera.                     u:object_r:camera_prop:s0
 persist.camera.             u:object_r:camera_prop:s0
